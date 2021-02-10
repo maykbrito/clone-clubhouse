@@ -40,10 +40,18 @@
                 display: block;
                 overflow: hidden;
             }
+
+            main > div {
+                align-items: center;
+                justify-items: center;
+            }
         </style>
     </head>
-    <body class="h-screen flex flex-col bg-yellow-50">
-        <div class="w-screen bg-yellow-50 p-4">
+    <body class="
+    m-auto
+    h-screen flex flex-col bg-yellow-50 
+    sm:max-w-md">
+        <div class="w-full bg-yellow-50 p-4">
             <header class="w-full flex justify-between">
                 <div class="flex items-center text-lg">
                     <span class="w-6 h-6 mr-1">
@@ -160,7 +168,8 @@
 
         <footer class="
         fixed bottom-0
-        m-auto p-3 flex items-center justify-between w-full bg-white">
+        m-auto p-3 flex items-center justify-between
+        sm:max-w-md w-full bg-white">
 
             <button class="rounded-full bg-gray-200 py-1.5 px-4
             flex items-center">
